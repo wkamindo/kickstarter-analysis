@@ -10,7 +10,7 @@ The purpose of this project was to utilize Excel and its vast functions to analy
 
 ### Analysis of Outcomes Based on Launch Date
 Within the original data set, all theater outcomes were selectively filtered to reveal trends based on the launch date. A pivot table displaying the number of successful, failed, and canceled theater campaigns launched in various months was then created. Concurrently, a line graph with markers for each month was derived from the pivot table and is shown below
- ![Theater_Outcomes_vs_Launch.png](/blob/main/Theater_Outcomes_vs_Launch.png)
+ ![Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
 The following observations were made:
 Overall there seems to be an increase in launches during the beginning the month of April till August. 
 - The most successful theater campaigns were launched in the month of May with the least successful having launched in December.
@@ -21,7 +21,7 @@ Overall there seems to be an increase in launches during the beginning the month
 
 ### Analysis of Outcomes Based on Goals
 Further analysis on the ouctomes of plays based on the campaign goal was needed. The amount of the goals was listed in ranges of 4999, with the lowest being less than 1000 and the highest at greater than 50000. The function 'COUNTIFS()' was utilized to pull the number of successful, failed, and cancelled projects corresponding to each range from the original data. The percentage of successful, failed, and cancelled prjects were then calculated by dividing the outcome of interest by the total number of projects within that goal. This was all recorded in a table and the resulting line graph was created as shown below. 
-![Outcomes_vs_Goals.png](/blob/main/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals.png](Outcomes_vs_Goals.png)
 The following observations were made:
 - The graphs representing the percentage of successful plays and the percentage of failed play seem to have an inverse relationship in which they cross three times.
 - There were no play campaigns cancelled within the limits of this data set.
